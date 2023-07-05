@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+  font-family: 'League Spartan', sans-serif;
 }
 .sticky{
 
@@ -39,7 +43,7 @@ a{
      /* background-color: saddlebrown; */
      gap: 20px;
      font-size: large;
-     margin-left: 10px;
+     margin-left: 50px;
 }
 .anchor-color{
   text-decoration: none;
@@ -68,31 +72,32 @@ a{
     border: 1px solid #ccc;
     background-color: #ddd6d6;
     display: flex;
+    justify-content: space-between;
     /* justify-content: space-between; */
-    gap: 60px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    white-space: nowrap;
-    padding-left: 150px;
-    padding-right: 150px;
+   gap: 30px; 
+    /* overflow-x: auto; */
+    /* scroll-behavior: smooth; */
+    /* white-space: nowrap; */
+    padding-left: 10px;
+    padding-right: 10px;
     }
  .left{
   display: flex;
-  gap:60px;
+  gap:70px;
   transition : transform 0.5s ease;
   
  }
  .right{
   display: flex;
-  gap:60px;
+  gap:70px;
   transition : transform 0.5s ease;
  }
 .window-scroll{
-  transform: translateX(30px);
+  transform: translateX(35px);
   
 }
 .window-scroll-right{
-  transform: translateX(-30px);
+  transform: translateX(-35px);
 }
 
   
